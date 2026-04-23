@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    environment {
+        PATH = "/home/ubuntu/.nvm/versions/node/v24.15.0/bin:${env.PATH}"
+    }
     stages {
         stage("Environment Check"){
             steps {
