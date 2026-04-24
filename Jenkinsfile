@@ -3,7 +3,7 @@ pipeline {
     environment {
         NODE_ENV = "test"
         BUILD_DIR = "dist"
-        APP_NAME = "apis-and-fetch-lab"
+        APP_NAME = "apis-and-fetch"
     }
     options{
         timeout(time: 15, unit: "MINUTES")
